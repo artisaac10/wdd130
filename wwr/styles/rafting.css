@@ -28,25 +28,29 @@ footer {
     position: relative;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+    top: 200px;
+}
+
 .hero article img {
+
     float: right;
-    width: 50%;
+    width: 35%;
     height: auto;
 }
 
 .hero article p {
+    margin: 0%;
     background-color: var(--accent1-color);
     color: var(--primary-color);
+    height: 185px;
 
 }
 
@@ -74,6 +78,11 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+section p {
+    position: relative;
+    margin: 30px;
 }
 
 .socialmedia a {
