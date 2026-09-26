@@ -102,6 +102,13 @@ h1 {
     background-color: var(--accent1-color);
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
 .history h2 {
     margin-bottom: 5px;
     text-align: center;
@@ -109,21 +116,14 @@ h1 {
     color: black;
 }
 
-.history section {
-    display: grid;
-    grid-template-columns: 1fr 140px 1fr;
-    align-items: center;
-    gap: 30px;
-}
-
-.history section p {
+.history p {
     margin: 0;
     font-size: 14px;
     line-height: 1.3;
     color: black;
 }
 
-.history section img {
+.history img {
     width: 140px;
     height: 90px;
     object-fit: cover;
