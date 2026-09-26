@@ -24,6 +24,29 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    min-width: 95px;
+    padding: 7px 15px;
+
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .hero {
     position: relative;
 }
@@ -56,7 +79,6 @@ footer {
 
 h1,
 h2 {
-    position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -72,17 +94,77 @@ h1 {
     color: var(--primary-color);
 }
 
+.history {
+    margin: 0 5px 12px;
+    padding: 12px 30px 25px;
+
+    border: 1px solid black;
+    background-color: var(--accent1-color);
+}
+
+.history h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.history section {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.history section p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: white;
+}
+
+.history section img {
+    width: 140px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.adventure {
+    margin: 0 5px 12px;
+    padding: 10px 30px 20px;
+    background-color: #fafafa;
+}
+
+.adventure h2 {
+    margin-bottom: 12px;
+
+    text-align: center;
+    font-size: 22px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.gallery img {
+    width: 150px;
+    height: auto;
+}
+
+.captions {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: px;
+}
+
 nav,
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
-}
-
-section p {
-    position: relative;
-    margin: 30px;
 }
 
 .socialmedia a {
