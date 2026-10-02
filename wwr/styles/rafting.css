@@ -119,6 +119,16 @@ h1 {
     overflow: hidden;
 }
 
+.contact {
+    display: grid;
+
+    grid-template-columns: 287px 1fr;
+
+    gap: 35px;
+
+    padding: 0 10px 21px;
+}
+
 .contact-form {
     font-size: 12px;
 }
@@ -246,6 +256,36 @@ button:hover {
     width: 140px;
     height: 90px;
     object-fit: cover;
+}
+
+.employee {
+    border: 1px solid #555;
+    padding: 8px 20px 15px;
+    text-align: center;
+}
+
+.employee h2 {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.employee-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee-list figure {
+    margin: 0;
+}
+
+.employee-list img {
+    width: 80px;
+    height: 65px;
+}
+
+.employee-list figcaption {
+    font-size: 11px;
+    margin-top: 3px;
 }
 
 .adventure {
