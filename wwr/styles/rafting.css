@@ -103,12 +103,20 @@ h1 {
     font-size: 21px;
     font-weight: normal;
     margin: 0 0 3px;
+    position: relative;
 }
 
 .company-info p {
     margin: 1px 0;
     font-size: 12px;
     font-weight: bold;
+}
+
+.map {
+    height: 247px;
+    background-color: #dedede;
+    position: relative;
+    overflow: hidden;
 }
 
 .contact-form {
