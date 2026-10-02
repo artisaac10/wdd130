@@ -97,91 +97,86 @@ h1 {
 .history {
     margin: 0 5px 12px;
     padding: 12px 30px 25px;
-
     border: 1px solid black;
     background-color: var(--accent1-color);
-}
-
-.history {
     display: grid;
     grid-template-columns: 1fr 140px 1fr;
     align-items: center;
     gap: 30px;
-}
 
-.history h2 {
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 22px;
-    color: black;
-}
+    .history h2 {
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 22px;
+        color: black;
+    }
 
-.history p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.3;
-    color: black;
-}
+    .history p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.3;
+        color: black;
+    }
 
-.history img {
-    width: 140px;
-    height: 90px;
-    object-fit: cover;
-}
+    .history img {
+        width: 140px;
+        height: 90px;
+        object-fit: cover;
+    }
 
-.adventure {
-    margin: 12px 0;
-    padding: 10px 4% 18px;
+    .adventure {
+        margin: 12px 0;
+        padding: 10px 4% 18px;
 
-    background-color: #f8f8f8;
-    border: 1px solid #555;
-}
+        background-color: #f8f8f8;
+        border: 1px solid #555;
+    }
 
-.adventure h2 {
-    text-align: center;
-}
+    .adventure h2 {
+        text-align: center;
+    }
 
-.adventure-gallery {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 25px;
-    align-items: start;
-}
+    .adventure-gallery {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 25px;
+        align-items: start;
+    }
 
-.adventure figure {
-    margin: 0;
-    text-align: center;
-}
+    .adventure figure {
+        margin: 0;
+        text-align: center;
+    }
 
-.adventure figure img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    margin-bottom: 5px;
-}
+    .adventure figure img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
 
-.adventure figcaption {
-    font-size: 13px;
-    color: black;
-}
+    .adventure figcaption {
+        font-size: 13px;
+        color: black;
+    }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
+    nav,
+    p,
+    section,
+    article {
+        margin: 16px;
+        padding: 8px;
+    }
 
-footer {
-    color: black;
-}
+    footer {
+        color: black;
+    }
 
-.socialmedia a {
-    text-decoration: none;
-}
+    .socialmedia a {
+        text-decoration: none;
+    }
 
-.socialmedia img {
-    width: 125px;
-    height: auto;
-}
+    .socialmedia img {
+        width: 125px;
+        height: auto;
+    }
